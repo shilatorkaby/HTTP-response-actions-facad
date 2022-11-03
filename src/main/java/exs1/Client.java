@@ -22,7 +22,6 @@ public class Client {
                 "name": "morpheus",
                 "job": "zion resident"
             }""";
-
     System.out.println(response.put(url,json));
 
     System.out.println(response.patch(url,json));
